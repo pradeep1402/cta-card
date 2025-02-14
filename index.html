@@ -2,19 +2,65 @@
 <html lang="en">
     <head>
         <title>CTA CARD</title>
-        <style></style>
+        <style>
+            * {
+                box-sizing: border-box;
+                padding: 0;
+                margin: 0;
+                font-family: sans-serif;
+                font-weight: 300;
+            }
+
+            .cta-container {
+                border: 1px solid rgba(0, 0, 0, 0.4);
+                width: 450px;
+                padding: 40px;
+                margin: 20px auto;
+                color: rgba(0, 0, 0, 0.6);
+            }
+
+            .cta-container > h1 {
+                font-size: 32px;
+                letter-spacing: 0.5px;
+            }
+
+            .line {
+                width: 50px;
+                height: 2px;
+                background-color: black;
+                margin: 20px 0;
+            }
+
+            .cta-btn {
+                background-color: rgba(0, 0, 255, 0.8);
+                border-radius: 20px;
+                text-align: center;
+                padding: 10px;
+                margin: 20px 0;
+            }
+
+            .content {
+                line-height: 24px;
+                font-size: 18px;
+            }
+
+            .terms-content {
+                font-size: 14px;
+                line-height: 18px;
+            }
+        </style>
     </head>
     <body>
         <main>
-            <article>
+            <article class="cta-container">
                 <h1>Build your first chatbot in 10 minutes!</h1>
-                <div></div>
-                <p>
+                <div class="line"></div>
+                <p class="content">
                     Have a bot answering question from customers on your website
                     within 10 minutes of signing up for ChatBot.
                 </p>
-                <div>Try Now →</div>
-                <p>
+                <div class="cta-btn">Try Now →</div>
+                <p class="terms-content">
                     By clicking try now you create an account and agree to our
                     Terms and Conditions and Privacy Policy.
                 </p>
