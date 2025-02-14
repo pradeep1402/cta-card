@@ -8,27 +8,31 @@
                 padding: 0;
                 margin: 0;
                 font-family: sans-serif;
-                font-weight: 300;
+                font-weight: 200;
             }
 
             .cta-container {
                 border: 1px solid rgba(0, 0, 0, 0.4);
                 width: 500px;
                 padding: 40px;
-                margin: 50px auto;
+                margin: 10% auto;
                 color: rgba(0, 0, 0, 0.6);
+                line-height: 30px;
+                letter-spacing: 0.4px;
             }
 
-            .cta-container > h1 {
+            .cta-container > * {
+                margin-bottom: 20px;
+            }
+
+            h1 {
                 font-size: 40px;
-                letter-spacing: 0.5px;
+                line-height: 40px;
             }
 
             .line {
-                width: 50px;
-                height: 2px;
-                background-color: black;
-                margin: 20px 0;
+                width: 16%;
+                border: 0.8px solid black;
             }
 
             .cta-btn {
@@ -36,29 +40,27 @@
                 border-radius: 100px;
                 text-align: center;
                 padding: 10px;
-                margin: 20px 0;
                 color: white;
                 text-transform: uppercase;
                 font-size: 20px;
             }
 
             .content {
-                line-height: 30px;
                 font-size: 20px;
                 font-weight: 200;
-                color: rgba(0, 0, 0, 0.5);
+                color: rgba(0, 0, 0, 0.6);
             }
 
             .terms-content {
                 font-size: 14px;
                 line-height: 18px;
-                color: rgba(0, 0, 0, 0.4);
+                color: rgba(0, 0, 0, 0.5);
             }
         </style>
     </head>
     <body>
         <main>
-            <article class="cta-container">
+            <section class="cta-container">
                 <h1>Build your first chatbot in 10 minutes!</h1>
                 <div class="line"></div>
                 <p class="content">
@@ -70,7 +72,7 @@
                     By clicking try now you create an account and agree to our
                     Terms and Conditions and Privacy Policy.
                 </p>
-            </article>
+            </section>
         </main>
     </body>
 </html>
